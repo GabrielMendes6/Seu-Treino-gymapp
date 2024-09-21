@@ -1,27 +1,37 @@
 {
   "expo": {
-    "name": "gymApp",
-    "slug": "gymApp",
-    "version": "1.0.0",
+    "name": "Seu Treino",
+    "slug": "Seu-Treino",
+    "version": "1.14.9",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/IconViva.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashST.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#052260"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon": "./assets/IconViva.png"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/IconViva.png",
+        "backgroundColor": "#052260"
+      },
+      "permissions": [
+        "INTERNET"
+      ],
+      "package": "com.seutreino.gymapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/IconViva.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fd765ae2-dbe7-4437-b9f1-346498b86d3b"
+      }
     }
   }
 }
